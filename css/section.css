@@ -1,9 +1,10 @@
 .img__1 {
-    margin: 20px;
+    margin: 5px;
 }
 
 .section__aboutUs {
     display: flex;
+    max-height: 600px;
 }
 
 .section__aboutUs--title {
@@ -11,7 +12,6 @@
 }
 
 .section__aboutUs--article {
-    padding: 20px;
     margin: 10px;
     font-size: 15px;
 }
