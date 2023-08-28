@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    background-color: white;
+    background-size: auto;
+}
+
+.nav {
+    padding: 10px;
+    text-align: center;
+    flex: 1 0 0;
+}
+
+.img {
+    position: right;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+}
+
+.img__1 {
+    margin: 20px;
+}

@@ -1,0 +1,21 @@
+.img__1 {
+    margin: 20px;
+}
+
+.section__aboutUs {
+    display: flex;
+}
+
+.section__aboutUs--title {
+    text-align: center;
+}
+
+.section__aboutUs--article {
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.section__aboutUs--flex {
+    flex: 0 1 1;
+}
