@@ -1,21 +1,19 @@
-.img__1 {
-    margin: 5px;
-}
-
-.section__aboutUs {
+.section {
     display: flex;
     max-height: 600px;
+    padding: 60px;
+    border-bottom: 3px outset black;
 }
 
-.section__aboutUs--title {
+.section__title {
     text-align: center;
 }
 
-.section__aboutUs--article {
+.section__article {
     margin: 10px;
     font-size: 15px;
 }
 
-.section__aboutUs--flex {
+.section__article--flex {
     flex: 0 1 1;
 }
