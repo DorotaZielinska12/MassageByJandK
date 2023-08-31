@@ -1,16 +1,26 @@
 .priceList {
     margin: 0 auto;
     display: flex;
+    position: center;
 }
 
 .priceList__img {
-    padding-top: 5px;
-    flex: 1 0 0;
-    margin: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .priceList__title {
     padding-top: 20px;
     text-align: center;
     font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .priceList {
+        flex-wrap: wrap;
+    }
+
+    .priceList__img {
+        flex-basis: 50%;
+    }
 }

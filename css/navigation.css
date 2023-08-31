@@ -6,6 +6,7 @@
 
 .nav {
     padding: 10px;
+    font-size: 30px;
     text-align: center;
     flex: 1 0 0;
 }
@@ -16,5 +17,5 @@
 
 .title {
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
 }
