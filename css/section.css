@@ -1,7 +1,6 @@
 .section {
     display: flex;
-    max-height: 600px;
-    padding: 60px;
+    padding: 40px;
     border-bottom: 3px outset black;
 }
 
@@ -10,10 +9,18 @@
 }
 
 .section__article {
-    margin: 10px;
-    font-size: 15px;
+    flex-basis: 50%;
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
 }
 
-.section__article--flex {
-    flex: 0 1 1;
+@media (max-width: 768px) {
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .section__article--flex {
+        flex-basis: 100%;
+    }
 }
