@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .section {
         flex-wrap: wrap;
     }
@@ -23,4 +23,5 @@
     .section__article--flex {
         flex-basis: 100%;
     }
+
 }
