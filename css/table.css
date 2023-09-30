@@ -1,0 +1,15 @@
+.table {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tableCell {
+    border: 2px solid black;
+    border-width: 0 0 2px;
+    padding: 10px;
+}
