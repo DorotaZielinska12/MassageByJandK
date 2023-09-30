@@ -9,7 +9,13 @@
 }
 
 .tableCell {
-    border: 2px solid black;
+    border: 1px solid black;
     border-width: 0 0 2px;
     padding: 10px;
+}
+
+.tableBackground {
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
